@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DF06BCCC-7338-45B7-899C-20EC56CE7DEA}</ProjectGuid>
+    <ProjectGuid>{7A8CA53B-7B8E-470D-8666-70249BC8C040}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Books.Logic</RootNamespace>
-    <AssemblyName>Books.Logic</AssemblyName>
+    <RootNamespace>Books.Tests</RootNamespace>
+    <AssemblyName>Books.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
