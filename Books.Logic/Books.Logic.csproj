@@ -39,7 +39,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ContractorService.cs" />
+    <Compile Include="DataManagementService.cs" />
+    <Compile Include="IDateService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ValidationException.cs" />
+    <Compile Include="ValidationType.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Books.Data\Books.Data.csproj">
+      <Project>{F454E139-66F0-4DE3-83DF-BB80D5246186}</Project>
+      <Name>Books.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
